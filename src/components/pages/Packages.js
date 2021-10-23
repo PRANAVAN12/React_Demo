@@ -13,14 +13,19 @@ export default function Products() {
       <div className="cards__container">
         <div className="cards_wrapper">
           <ul className="cards__items">
-            <SinglePack
-              src="images/cherry.jpg"
-              text="The Cherry Blossom season in Japan 
-                        is an extremely beautiful site and it is 
-                        an ideal time to visit the country."
-              label="Japan"
-              path="/packages"
-            />
+            <Row xs={1} md={1} className="g-4" style={{ marginTop: 20 }}>
+              {Array.from({ length: 4 }).map((_, idx) => (
+                <Col>
+                  <SinglePack 
+               src="images/cherry.jpg"
+               title='Japan'
+               days='4 Days & 2 Nights'
+               amount='550'
+                  
+                  />
+                </Col>
+              ))}
+            </Row>
           </ul>
         </div>
       </div>

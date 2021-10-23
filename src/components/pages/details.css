@@ -1,0 +1,27 @@
+.container_details{
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 15px;
+}
+.tour_details{
+    margin-left: 90px;
+    margin-top: 0px;
+}
+.tour_header{
+    margin-right: 365px;
+    margin-top: 0px;
+}
+.tab_items{
+ 
+    margin-top: 26px !important;
+}
+.nav-tabs{
+    height: 43px;
+    background-color: black;
+    color: aliceblue;
+}
+.tabsdetail{
+  margin-top: 25px;
+  background: aliceblue;
+  /* color:antiquewhite */
+}

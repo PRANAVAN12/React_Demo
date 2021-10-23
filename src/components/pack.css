@@ -1,0 +1,27 @@
+.cards__item__img{
+    width: 200px;
+    height: 60px;
+}
+
+.ViewClass {
+    border-left: 2px solid #B2BEB5;
+  }
+
+.highlight_days {
+    margin-left: 79px;
+    margin-top: 9px;
+  }
+.dealView {
+    margin-left: 79px;
+    margin-top: 9px;
+    width: 120px;
+  }
+.amount {
+    margin-left: 78px;
+    margin-top: 41px !important;
+ 
+  }
+.IconsColmn {
+color: #333;
+    margin-top: 30px !important;
+  }
